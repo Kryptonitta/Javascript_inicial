@@ -48,9 +48,11 @@ alert("Los integrantes de la familia son: " + integrante1 + ", " + integrante2 +
 
 //EJERCICIO 5: Solicitar al usuario uno o más precios. Luego, efectuar un descuento en porcentajes (20%, 30%, etcétera) sobre los valores ingresados, y realizar una salida.
 
-let precio1 = prompt("Ingrese el precio del primer producto");
-let precio2 = prompt("Ingrese el precio del segundo producto");
-let precio3 = prompt("Ingrese el precio del tercer producto");
+//parseInt sirve para convertir un string a un número entero. Si escriben texto, va a salir un error al final ya que no se pueden hacer operaciones matemáticas sobre texto. Para esto habría que hacer validaciones pero es algo que aun no vimos. 
+
+let precio1 = parseInt (prompt("Ingrese el precio del primer producto"));
+let precio2 = parseInt (prompt("Ingrese el precio del segundo producto"));
+let precio3 = parseInt (prompt("Ingrese el precio del tercer producto"));
 
 let descuento1 = precio1 * 0.20;
 let descuento2 = precio2 * 0.30;
@@ -60,4 +62,4 @@ let precioFinal1 = precio1 - descuento1;
 let precioFinal2 = precio2 - descuento2;
 let precioFinal3 = precio3 - descuento3;
 
-alert("El precio final del primer producto es: " + precioFinal1 + " y el precio final del segundo producto es: " + precioFinal2 + " y el precio final del tercer producto es: " + precioFinal3);
+alert("El precio final del primer producto es: $" + precioFinal1 + " y el precio final del segundo producto es: $" + precioFinal2 + " y el precio final del tercer producto es: $" + precioFinal3);
