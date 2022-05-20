@@ -1,20 +1,20 @@
-# CÓMO ESCRIBIR CÓDIGO EN JAVASCRIPT
+>>>CÓMO ESCRIBIR CÓDIGO EN JAVASCRIPT
 ### En un archivo individual con extensión --> .js ENTRE LA ETIQUETA DE CIERRE DEL FOOTER Y DE CIERRE DEL BODY
 
 </footer>
     <script src= "nombreDeLaCarpetaDondeEstaElArchivo/nombreDelArchivo.js"></script>
 </body>
 
-# COMENTARIOS EN JAVASCRIPT
+>>>COMENTARIOS EN JAVASCRIPT
 //Así se escribe un comentario de una linea
 
 /*Así se escribe un 
 comentario de más de una línea*/
 
-# VARIABLES
+>>>VARIABLES
 ## Es un espacio reservado en la memoria que puede cambiar de contenido a lo largo de la ejecución de un programa
 
-# PASOS PARA CREAR UNA VARIABLE
+>>>PASOS PARA CREAR UNA VARIABLE
 ## 1 DECLARACIÓN: se usa la palabra let o const --> Let = valores que van a cambiar. Const = si el valor no va a cambiar 
 ## 2 DEFINIR EL TIPO DE VALOR: puede ser --> number / string (cadena de texto) / boolean (true o false) / null / undefined / objeto --> de momento solo conocemos number o string
 ## 3 ASIGNACIÓN: es asignarle el valor a la variable

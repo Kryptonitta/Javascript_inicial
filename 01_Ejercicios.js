@@ -8,6 +8,10 @@ let edad = 36;
 
 console.log(nombre, apellido, edad); //Esto es para ver que se imprimen en la consola
 
+//EXTRA: con document.write() puedo ver lo mismo de la consola pero en "el documento". Esto NO ES BUENA PRÁCTICA pero para fines educativos es más sencillo que la consola
+
+document.write(nombre + " " + apellido + " " + edad);
+
 //EJERCICIO 2: Crear cinco (5) variables constantes, asignando a cada una de ellas diferentes nombres de ciudades. Generalmente, dichas variables se declaran con const.
 
 const ciudad1 = "Springfield";
@@ -43,3 +47,17 @@ let integrante5 = prompt("Ingrese el nombre del quinto integrante de la familia"
 alert("Los integrantes de la familia son: " + integrante1 + ", " + integrante2 + ", " + integrante3 + ", " + integrante4 + ", " + integrante5); //El alert me muestra el mensaje 
 
 //EJERCICIO 5: Solicitar al usuario uno o más precios. Luego, efectuar un descuento en porcentajes (20%, 30%, etcétera) sobre los valores ingresados, y realizar una salida.
+
+let precio1 = prompt("Ingrese el precio del primer producto");
+let precio2 = prompt("Ingrese el precio del segundo producto");
+let precio3 = prompt("Ingrese el precio del tercer producto");
+
+let descuento1 = precio1 * 0.20;
+let descuento2 = precio2 * 0.30;
+let descuento3 = precio3 * 0.50;
+
+let precioFinal1 = precio1 - descuento1;
+let precioFinal2 = precio2 - descuento2;
+let precioFinal3 = precio3 - descuento3;
+
+alert("El precio final del primer producto es: " + precioFinal1 + " y el precio final del segundo producto es: " + precioFinal2 + " y el precio final del tercer producto es: " + precioFinal3);
