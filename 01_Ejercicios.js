@@ -63,3 +63,17 @@ let precioFinal2 = precio2 - descuento2;
 let precioFinal3 = precio3 - descuento3;
 
 alert("El precio final del primer producto es: $" + precioFinal1 + " y el precio final del segundo producto es: $" + precioFinal2 + " y el precio final del tercer producto es: $" + precioFinal3);
+
+//DATA EXTRA:
+//hay dos maneras de concatenar variables en javascript, la primera es con + y la segunda es con las comillas invertidas. El resultado es lo mismo, por lo que es a elección.
+
+let nombreA = "Homero";
+let apellidoA = "Simpson";
+
+//concatenación con +
+let nombreCompletoA = "Nombre y apellido: "+ nombreA + " " + apellidoA;
+console.log(nombreCompletoA);
+
+//concatenación con comillas invertidas + ${}   --> LAS COMILLAS INVERTIDAS NO SON LAS COMILLAS COMUNES
+let nombreCompletoB =  `Nombre y apellido: ${nombreA} ${apellidoA}`;
+console.log(nombreCompletoB);
