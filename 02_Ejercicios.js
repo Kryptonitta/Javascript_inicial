@@ -29,7 +29,7 @@ if  (teclaMinuscula === "y") {
 if (tecla === "y" || tecla === "Y") {
     alert("Correcto");
 } else {
-    alert("No apretaste Y");
+    alert("No apretaste la letra y");
 }
 
 //EJERCICIO 03: ACTIVIDAD 3 Solicitar al usuario un (1) un número.
